@@ -1,2 +1,2 @@
-# ssh-runner
-web shell api &amp; websocket integrate , fabric integrate
+DavyJones
+主要用于远程脚本的执行,以及web terminal的实现.

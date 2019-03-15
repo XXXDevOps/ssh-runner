@@ -1,0 +1,26 @@
+{
+    "default_parameters": {
+        "dest_base_path": "/data/app/sqe_dj/"
+    },
+    "package_conf": {
+        "package_name": "sqe_dj",
+        "scm": "git_new",
+        "include_paths": [
+            "release/bin","release/conf","release/ansinio_files"
+        ]
+    },
+    "install_conf": {
+        "link": [
+		  {
+            "src": "release/bin",
+            "dest": "$(dest_base_path)/bin"
+          },
+		  {
+            "src": "release/conf",
+            "dest": "$(dest_base_path)/conf"
+		  }
+		]
+    },
+    "start": "service sqe_dj start",
+    "stop": "service sqe_dj stop"
+}

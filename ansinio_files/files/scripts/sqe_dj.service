@@ -1,0 +1,16 @@
+[Unit]
+Description= SQE SE Davy Jones
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/data/app/sqe_dj/sqe_dj.pid
+#EnvironmentFile=/data/app/sqe_dj/conf/env.conf
+ExecStart=/data/app/sqe_dj/bin/start_dj.sh $ARG1
+ExecStop=/data/app/sqe_dj/bin/stop_dj.sh
+PrivateTmp=true
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

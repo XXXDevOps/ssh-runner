@@ -1,0 +1,14 @@
+1.new feature 增加批量命令执行接口
+2018.11.29
+1.bug fix 修复当用户exit命令使得管道关闭后导致一直死循环空跑cpu的bug
+2018.11.13
+1.new feature 增加shell交互web socket接口
+2018.11.12
+1.bug fix 修复fabric自动获取环境ssh变量导致ssh远程连接出问题的BUG
+2.new feature 接口增加sudo参数,来进行sudo语句的执行
+3.new feature 增加并行执行参数parallel,默认为True
+2018.11.07
+1.tunning 优化了http请求中断后自动断开ssh连接的功能
+First Commit
+1.new feature 利用fabric远程执行脚本,支持本地或者http下载两种方式
+2.new feature 利用paramiko实现脚本实时返回信息,实现runtime执行脚本接口
