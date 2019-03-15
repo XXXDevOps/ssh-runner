@@ -1,2 +1,1 @@
-DavyJones
-主要用于远程脚本的执行,以及web terminal的实现.
+主要用于远程脚本的执行,以及web terminal的实现, 基于paramiko还有fabric
