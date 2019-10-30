@@ -6,7 +6,7 @@
         "package_name": "sqe_dj",
         "scm": "git_new",
         "include_paths": [
-            "release/bin","release/conf","release/ansinio_files"
+            "release/bin","release/conf","release/_files"
         ]
     },
     "install_conf": {

@@ -20,7 +20,6 @@ release: clean
 	cp davyJones.py /tmp/dj/release/bin/
 	cp connection_data.py /tmp/dj/release/bin/
 	cp -r ./build/packages/*  /tmp/dj/release/bin/
-	cp -r ./ansinio_files /tmp/dj/release/ansinio_files
 	cp -r ./dist/* /tmp/dj/release/bin/
 	cp -r /tmp/dj/release ./
 	rm -rf /tmp/dj/release

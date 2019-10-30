@@ -26,7 +26,7 @@
         		console.log(res);
        		     $("#t").text(res.msg);
        	})
-       	socket.emit("connect_server",{"host":"venus-test.nioint.com"})
+       	socket.emit("connect_server",{"host":"a.b.com"})
         function send(){
         	console.log("run cmd");
     		socket.emit("run_cmd", {"uid": uid, "cmd":$("#i").val()} )

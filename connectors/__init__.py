@@ -219,11 +219,11 @@ class ConnecterInteractive(Connecter):
 
 
 if __name__ == "__main__":
-	c = ConnecterInteractive(host="venus-test.nioint.com", port=2222)
+	c = ConnecterInteractive(host="a.b.com", port=2222)
 	c.open()
 	c.run_command("sh 1.sh")
 	for x in c.read_result_until_done():
 		print(x)
 	print("finish")
-	# c=ConnecterScriptRunner(host="venus-test.nioint.com", port=2222, script="1.sh")
+	# c=ConnecterScriptRunner(host="a.b.com", port=2222, script="1.sh")
 	# print(c.put_and_run_script())
